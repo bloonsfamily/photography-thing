@@ -1,0 +1,10 @@
+.grid-container{
+    display: inline-grid;
+    grid-auto-flow:row;
+    gap:1px 10px;
+    grid-template-columns: repeat(13,1fr);
+    grid-template-rows: repeat(auto-fill,100px);
+}
+.grid-container > * {
+    background-color: rgb(255, 255, 255);
+  }
